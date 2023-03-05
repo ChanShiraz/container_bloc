@@ -96,12 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          // bloc.add(AddStudenEevnt(student: Student(rollNo: 5, name: 'Hassan')));
-        },
-        child: const Icon(Icons.add),
-      ),
+     
     );
   }
 }
